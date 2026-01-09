@@ -129,6 +129,18 @@ nav .menu li a {
     flex-direction: column;
     justify-content: center;
 }
+#note. header-text .h1{
+    width: 1360px;
+    height: 116px;
+    color: black;
+    font-family: inter;
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 .note-content .note-card{
     max-width: 322px;
@@ -141,6 +153,8 @@ nav .menu li a {
 
 .note-content .note-card img {
     width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
 }
 
 .note-content .note-card h3 {
@@ -221,4 +235,34 @@ nav .menu li a {
     background: rgba(247, 246, 242, 1);
     border-radius: 13px;
     padding: 80px 40px;
+}
+
+
+#ready-continer {
+    background: rgba(247, 246, 242, 1);
+    border-radius: 13px;
+    padding: 80px 40px;
+}
+
+#ready-continer .ready-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+#ready-continer .ready-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(0, 25, 49, 1);
+}
+
+#ready-continer .ready-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 24px;
 }
