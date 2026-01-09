@@ -114,3 +114,111 @@ nav .menu li a {
     display: flex;
     align-items: center;
 }
+
+.note-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.note-content .note-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.note-content .note-card{
+    max-width: 322px;
+    height: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.079);
+    background: rgba(255, 255, 255, 0.238);;
+}
+
+.note-content .note-card img {
+    width: 60px;
+}
+
+.note-content .note-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 25, 49, 1);
+    line-height: 29px;
+    text-transform: capitalize;
+}
+.notes-content .notes-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+}
+
+.branin-contet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.branin-contet .brrain-img img {
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.branin-contet .brain-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.branin-contet .brain-text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(70, 145, 101, 1);
+}
+
+.branin-contet .brain-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: Bold;
+    color: #001931;
+}
+
+.branin-contet .brain-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: Regular;
+    color: #627382;
+}
+
+.brain-text .text-group {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.brain-text .text-group img {
+    width: 20px;
+}
+
+.brain-text .text-group h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: Medium;
+    color: rgba(0, 25, 49, 1);
+}
+
+#ready-continer {
+    background: rgba(247, 246, 242, 1);
+    border-radius: 13px;
+    padding: 80px 40px;
+}
